@@ -1,0 +1,26 @@
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+    align-items: center;
+ }
+
+.flexbox img {
+    width: 300px;
+}
+
+.flexbox1 img {
+    width: 300px;
+}
+.flexbox1 {
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.flex-child {
+    width: 200px;
+    height: 200px;
+}
